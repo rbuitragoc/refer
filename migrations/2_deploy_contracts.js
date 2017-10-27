@@ -1,5 +1,5 @@
-var Kontrakt = artifacts.require("Kontrakt");
+var Monitoring = artifacts.require("Monitoring")
 
 module.exports = function(deployer) {
-  deployer.deploy(Kontrakt);
-};
+  deployer.deploy(Monitoring)
+}
