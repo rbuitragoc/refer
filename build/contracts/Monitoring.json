@@ -2,15 +2,10 @@
   "contract_name": "Monitoring",
   "abi": [
     {
-      "constant": true,
+      "constant": false,
       "inputs": [],
-      "name": "owner",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
+      "name": "buildKontrakt",
+      "outputs": [],
       "payable": false,
       "type": "function"
     },
@@ -20,15 +15,21 @@
       "type": "constructor"
     }
   ],
-  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60008054600160a060020a03191633600160a060020a03161790555b5b60bd8061003b6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416638da5cb5b8114603c575b600080fd5b3415604657600080fd5b604c6075565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b60005473ffffffffffffffffffffffffffffffffffffffff16815600a165627a7a7230582037ea2e98571b764331525b83ff68942003c2d97bbc567f94dd3c73a6fa2e5ffd0029",
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b5b5b607d8061001f6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663c2b8b4498114603c575b600080fd5b3415604657600080fd5b604c604e565b005b5b5600a165627a7a72305820a8b646a53db098b64611c43a1d4b80bc720404d5fc4384cc735a468b0b9da1850029",
   "networks": {
     "1508963579491": {
       "events": {},
       "links": {},
       "address": "0xf761a4403ac808c6fa09f1ea6571bf681af91fee",
       "updated_at": 1509118573630
+    },
+    "1509126256169": {
+      "events": {},
+      "links": {},
+      "address": "0xc053f05f7878d8dcd588fd0c7c89bfd55ed58061",
+      "updated_at": 1509126390571
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1509118573630
+  "updated_at": 1509126390571
 }

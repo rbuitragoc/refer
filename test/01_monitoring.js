@@ -10,10 +10,13 @@ contract("Monitoring", function(kontrakts) {
   describe("Deployed contract", function() {
     it("Get an instance", function() {
       return Monitoring.deployed().then(function(instance) {
-        kontrakt = instance;
-        expect(kontrakt).to.be.not.null;
+        monitor = instance;
+        expect(monitor).to.be.not.null;
       });
     });
+  });
+
+  describe("Created kontrakts", function() {
   });
 
 });
